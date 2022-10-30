@@ -1,2 +1,3 @@
-# Vreding-goit-markup-hw-08
- домашняя работа 
+# Homework-module1
+
+Домашняя работа. Модуль 2.
