@@ -1,7 +1,7 @@
 .hero-section {
   background-color: #2f303a;
-  max-width: 1600px;
-  padding: 200px 0;
+  max-width: 480px;
+  padding: 118px 0;
   margin: auto;
   background-image: linear-gradient(rgba(47, 48, 58, 40%), rgba(47, 48, 58, 40%)),
     url('../img/hero_bg.jpg');
@@ -17,13 +17,13 @@
 .hero-container__title {
   font-family: var(--main-font);
   font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
+  font-size: 26px;
+  line-height: 1.6;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
-  max-width: 696px;
+  max-width: 360px;
   margin: 0 auto 30px;
 }
 
@@ -46,5 +46,24 @@
   &:hover,
   &:focus {
     background-color: #188ce8;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero-section {
+    max-width: 768px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hero-section {
+    max-width: 1600px;
+    padding: 200px 0;
+  }
+
+  .hero-container__title {
+    font-size: 44px;
+    line-height: 1.36;
+    max-width: 696px;
   }
 }
